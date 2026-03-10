@@ -1,9 +1,8 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import CountryCard from "./componenets/CountryCard";
-import CountryList from "./componenets/CountryList";
-import SearchBar from "./componenets/Searchbar";
-
+import CountryCard from "./components/CountryCard";
+import CountryList from "./components/CountryList";
+import SearchBar from "./components/SearchBar";
 
 function App() {
   const [countries, setCountries] = useState([]);

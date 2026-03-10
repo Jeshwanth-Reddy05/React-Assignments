@@ -39,7 +39,7 @@ function App() {
     countryObj.name.common.toLowerCase().includes(query.toLowerCase()),
   );
   return (
-    <div className="flex flex-col gap-8 items-center">
+    <div className="flex flex-col gap-8 items-center bg-black text-white">
       <header className="text-5xl font-bold text-center">
         Country Explorer
       </header>
